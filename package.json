@@ -1,46 +1,73 @@
 {
-  "name": "dashing-js",
-  "description": "Port of Dashing to node.js",
-  "author": "Fabio Caseri <fabio.caseri@gmail.com> (http://www.fabiocaseri.com)",
-  "version": "0.1.5",
-  "license": "MIT",
+  "_from": "git+https://github.com/simbro/dashing-js.git",
+  "_id": "dashing-js@0.1.8",
+  "_inBundle": false,
+  "_location": "/dashing-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/simbro/dashing-js.git",
+    "rawSpec": "git+https://github.com/simbro/dashing-js.git",
+    "saveSpec": "git+https://github.com/simbro/dashing-js.git",
+    "fetchSpec": "https://github.com/simbro/dashing-js.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/simbro/dashing-js.git#a078f3e1e1fe7caecbebe0f86de6fa100f45dfe6",
+  "_spec": "git+https://github.com/simbro/dashing-js.git",
+  "_where": "Z:\\Courses\\Node\\studiodashboard",
+  "author": {
+    "name": "Fabio Caseri",
+    "email": "fabio.caseri@gmail.com",
+    "url": "http://www.fabiocaseri.com"
+  },
+  "bin": {
+    "dashing-js": "./bin/dashing-js"
+  },
+  "bugs": {
+    "url": "https://github.com/stephanebalasse/dashing-js/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "async": "~0.2.7",
-    "coffee-script": "~1.6.2",
-    "commander": "~2.1.0",
-    "consolidate": "~0.10.0",
-    "ejs": "~0.8.3",
-    "express": "~3.4.6",
-    "express-ejs-layouts": "~0.3.1",
-    "fs-extra": "~0.8.1",
-    "jade": "~0.35.0",
-    "mincer": "~0.5.12",
-    "node-sass": "~0.7.0",
-    "node-schedule": "~0.1.8",
-    "prompt": "~0.2.11",
-    "request": "~2.30.0",
-    "unzip": "~0.1.7",
-    "walker": "~1.0.3",
-    "winston": "~0.7.1"
+    "async": "^0.2.10",
+    "coffee-script": "^1.6.3",
+    "commander": "^2.1.0",
+    "consolidate": "^0.10.0",
+    "ejs": "2.4.2",
+    "express": "^3.4.8",
+    "express-ejs-layouts": "2.1.0",
+    "fs-extra": "^0.8.1",
+    "jade": "1.11.0",
+    "mincer": "1.4.1",
+    "node-sass": "^4.5.0",
+    "node-schedule": "^0.1.16",
+    "prompt": "^0.2.14",
+    "request": "^2.30.0",
+    "unzip": "^0.1.11",
+    "walker": "^1.0.7",
+    "winston": "2.2.0"
   },
-  "devDependencies": {
-    "ejs": "*",
-    "jade": "*",
-    "mocha": "*",
-    "should": "*"
-  },
+  "deprecated": false,
+  "description": "Port of Dashing to node.js",
+  "engine": "node >= 3.10.10",
+  "homepage": "https://github.com/stephanebalasse/dashing-js#readme",
   "keywords": [
     "dashing",
     "dashboard",
     "web"
   ],
-  "repository": "git://github.com/fabiocaseri/dashing-js",
+  "license": "MIT",
   "main": "index",
-  "bin": {
-    "dashing-js": "./bin/dashing-js"
+  "name": "dashing-js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebalasse/dashing-js.git"
   },
   "scripts": {
     "test": "make test"
   },
-  "engine": "node >= 0.10"
+  "version": "0.1.8"
 }
